@@ -1,0 +1,66 @@
+body {
+  width: 100%;
+  margin: 0;
+  background-image: url(https://www.planetnatural.com/wp-content/uploads/2023/10/Blue-Flowers.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  color: purple;
+  font-family: "Caveat", cursive;
+  font-style: normal;
+  font-size: 20px;
+ }
+
+.centered{
+  background-color: #BED7DC;
+  width: 70%;
+  min-width: 400px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+form{
+  text-align: left;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+h1, p{
+  text-align: center;
+}
+
+label{
+  display: block;
+}
+
+
+#submit-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+input[type="submit"] {
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  border-color: white;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  color: darkblue;
+}
+
+hr {
+  height: 1%;
+  background-color: pink;
+  border-color: #F3D0D7;
+}
+
+a {
+  color: blueviolet;
+}
+
+textarea {
+  width: 100%;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="centered">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for answering our survey</p>
+      <form id="survey-form">
+        <hr />
+        <label id="name-label" for="name">
+          Name
+          <input id="name" type="text" required placeholder="Name" name="name"
+        /></label>
+        <label id="email-label" for="email">
+          Email
+          <input
+            id="email"
+            type="email"
+            required
+            placeholder="Email"
+            name="email"
+        /></label>
+        <label id="number-label" for="number">
+          Phone number
+          <input id="number" type="text" placeholder="number" name="number" />
+        </label>
+        <hr />
+        <label for="dropdown"
+          >Marriage status
+          <select id="dropdown" name="dropdown" required>
+            <option value="">Select one</option>
+            <option value="married">Married</option>
+            <option value="single">Single</option>
+            <option value="noanswer">No Answer</option>
+          </select>
+        </label>
+        <label for="female">
+          <input type="radio" name="gender" id="female" value="female" /> Female
+        </label>
+        <label for="male">
+          <input type="radio" name="gender" id="male" value="male" />
+          Male
+        </label>
+        <hr />
+        <label for="youtube">
+          <input type="checkbox" id="youtube" value="youtube" />
+          Subscribe to <a href="YouTube">YouTube</a>
+        </label>
+        <label for="instagram">
+          <input type="checkbox" id="instragram" value="instagram" />
+          Subscribe to <a href="Instagram">Instagram</a>
+        </label>
+        <label for="twitter">
+          <input type="checkbox" id="twitter" value="twitter" />
+          Subscribe to <a href="Twitter">Twitter</a>
+        </label>
+        <hr />
+        <label for="comments">Additional comments</label>
+        <textarea id="comments"></textarea>
+        <label id="submit-wrapper">
+          <input type="submit" value="Submit" id="submit" />
+        </label>
+      </form>
+    </div>
+  </body>
+</html>
